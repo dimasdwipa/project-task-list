@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Add Task')
+{{-- @section('title', 'Add Task')
 
 @section('styles')
     <style>
@@ -52,4 +52,8 @@
         </div>
     </form>
 
+@endsection --}}
+
+@section('content')
+    @include('form')
 @endsection
